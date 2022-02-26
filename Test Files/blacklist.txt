@@ -1,0 +1,17 @@
+// functions that we wanna whitelist : 
+1. malloc, calloc, realloc
+2. anything used by break, exit, return
+
+Blaclist:
+1. read *
+2. write *
+3. open *
+4. close *
+5. newstat
+6. newfstat
+7. newlstat
+8. poll
+9. lseek
+14. rt_sigaction
+15. rt_sigprocmask
+16. ioctl
